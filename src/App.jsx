@@ -11,6 +11,7 @@ import PointLight from "./components/PointLight";
 import SpotLight from "./components/SpotLight";
 import DirectionalLight from "./components/DirectionalLight";
 import HemisphereLight from "./components/HemisphereLight";
+import LensFlare from "./components/LensFlare";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/spot" element={<SpotLight />} />
         <Route path="/directional" element={<DirectionalLight />} />
         <Route path="/hemisphere" element={<HemisphereLight />} />
+        <Route path="/lens-flare" element={<LensFlare />} />
       </Routes>
     </BrowserRouter>
   );
