@@ -12,6 +12,8 @@ import SpotLight from "./components/SpotLight";
 import DirectionalLight from "./components/DirectionalLight";
 import HemisphereLight from "./components/HemisphereLight";
 import LensFlare from "./components/LensFlare";
+import BasicMaterial from "./components/BasicMaterial";
+import MeshDepthMaterial from "./components/MeshDepthMaterial";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/directional" element={<DirectionalLight />} />
         <Route path="/hemisphere" element={<HemisphereLight />} />
         <Route path="/lens-flare" element={<LensFlare />} />
+        <Route path="/basic-material" element={<BasicMaterial />} />
+        <Route path="/mesh-depth-material" element={<MeshDepthMaterial />} />
       </Routes>
     </BrowserRouter>
   );
